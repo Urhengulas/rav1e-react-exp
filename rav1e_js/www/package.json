@@ -24,7 +24,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://urhengulas.github.io/rav1e",
+  "homepage": "https://urhengulas.github.io/rav1e-react-exp/",
   "author": "Urhengulas <johann.hemmann@code.berlin>",
   "license": "BSD-2-Clause",
   "eslintConfig": {
