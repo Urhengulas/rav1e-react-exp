@@ -137,13 +137,13 @@ jobs:
               with:
                   node-version: 14
 
-            - name: Install and Build
+            - name: Install and Build ${{ github.event }}
               working-directory: ${{ env.RAV1E_JS_DIR }}/www
               run: |
                   yarn install
                   yarn build
 
-            - name: Deploy
+            - name: Deploy ${{ github.event_name }}
               uses: peaceiris/actions-gh-pages@v3
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
