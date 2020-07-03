@@ -60,7 +60,7 @@ export default function App() {
 
 	return (
 		<div>
-			<h1>Rav1e_js demo</h1>
+			<h1>Rav1e_js live demo</h1>
 
 			<button disabled={flushing} onClick={sendFrame}>Send Frame</button>
 			<button disabled={flushing || frameQ_length === 0} onClick={flush}>Flush</button>
