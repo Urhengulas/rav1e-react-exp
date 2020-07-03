@@ -1,0 +1,2 @@
+(this["webpackJsonpexample-react"]=this["webpackJsonpexample-react"]||[]).push([[0],[function(n,i,e){n.exports=e(1)},function(n,i,e){"use strict";e.r(i),"BigUint64Array"in window===!1&&(window.BigUint64Array=Float64Array),Promise.all([e.e(2),e.e(3)]).then(e.bind(null,2)).catch((function(){return console.log("Failed importing")}))}],[[0,1]]]);
+//# sourceMappingURL=main.a2f32fce.chunk.js.map
